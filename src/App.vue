@@ -1,17 +1,17 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <img alt="Vue logo" src="./assets/shotgunWojakSmall.png">
+    <OrderEntry msg="Enter Symbol and Percentage to Buy and Sell!"/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import OrderEntry from './components/OrderEntry.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    OrderEntry
   }
 }
 </script>
@@ -22,7 +22,12 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  color: #f8d870;
+  background-image: url(https://cdn.streamelements.com/static/user/background_default.jpg);
+  height: 100vh;
+  margin: 0px;
+}
+body {
+  margin: 0px;
 }
 </style>
